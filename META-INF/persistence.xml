@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>com.ar.ibb.entity.PermissionsEntity</class>
+        <class>com.ar.ibb.entity.ApplicationUsersDataEntity</class>
+        <class>com.ar.ibb.entity.ResourceFileEntity</class>
+        <class>com.ar.ibb.entity.SystemUserEntity</class>
+        <class>com.ar.ibb.entity.TargetFileEntity</class>
+    </persistence-unit>
+</persistence>
